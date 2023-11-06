@@ -1,0 +1,210 @@
+/* Your styles here */
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+    width:auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #E9EDEE;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h2 {
+
+}
+
+#container {
+
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #438096;
+    font-weight: 600;
+    font-size: 0.7em;
+    margin-left: 1em;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    background-color: #222F3F;
+}
+
+#logo {
+    width: 7em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1.5em;
+}
+
+nav {
+    background-color: #364759;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+nav p {
+    display: inline;
+    margin-left: 0.9em;
+    color: white;
+}
+
+/* MAIN */
+
+main {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+}
+
+#buttondiv {
+    background-color: #F56600;
+    padding: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+button {
+    background-color: #F56600;
+    color: white;
+    font-size: 0.8em;
+    border: none;
+
+}
+
+#giftcard {
+    background-image: url("../img/bg-image.png");
+    background-position: center;
+    background-position: top;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    color: white;
+}
+
+#giftcard p {
+    margin-top: 2em;
+    font-weight: 600;
+}
+
+#articleOne {
+    background-color: white;
+}
+
+article {
+    margin-top: 2em;
+    text-align: left;
+    padding: 1em;
+}
+
+article p {
+    display: inline;
+}
+
+#contenitoreCarosello {
+    text-align: center;
+}
+
+#carosello {
+    background-image: url("../img/img_1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    padding: 14em 11em;
+    margin: 1em;
+    border-radius: 5%;
+    box-shadow: 6px 6px 15px rgb(207, 207, 207);
+}
+
+#caroselloDue {
+    background-image: url("../img/img_2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    padding: 14em 11em;
+    margin: 1em;
+    border-radius: 5%;
+    box-shadow: 6px 6px 15px rgb(207, 207, 207);
+}
+
+#caroselloTre {
+    background-image: url("../img/img_3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    padding: 14em 11em;
+    margin: 1em;
+    border-radius: 5%;
+    box-shadow: 6px 6px 15px rgb(207, 207, 207);
+}
+
+#caroselloQuattro {
+    background-image: url("../img/img_4.jpg");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    padding: 14em 11em;
+    margin: 1em;
+    border-radius: 5%;
+    box-shadow: 6px 6px 15px rgb(207, 207, 207);
+}
+
+#centering {
+    text-align: center;
+    margin: 0.5em;
+}
+
+#gaming {
+    background-image: url("../img/img_9.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 31em;
+    color: white;
+}
+
+#audio {
+    background-image: url("../img/img_10.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 31em;
+    color: white;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside {
+    background-color: #364759;
+    text-align: center;
+    padding: 0.7em;
+}
+
+aside a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #222F3F;
+    text-align: center;
+    padding: 2em 0em;
+}
+
+#logoFooter {
+    width: 9em;
+}
